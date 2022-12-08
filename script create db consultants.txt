@@ -1,0 +1,14 @@
+CREATE DATABASE `consultants`; 
+
+CREATE TABLE `consultants`.`employee` (`id` INT(50) NOT NULL AUTO_INCREMENT , `name` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+CREATE TABLE `consultants`.`appointment` (`id` INT(255) NOT NULL AUTO_INCREMENT , `consultant` VARCHAR(255) NOT NULL , `client_name` VARCHAR(255) NOT NULL , `client_email` VARCHAR(255) NOT NULL , `datetime` DATETIME(6) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+insert into employee (id, name) values(0,'Vineet Saini');  
+insert into employee (id, name) values(0,'Sumit Sharma');  
+insert into employee (id, name) values(0,'Omveer Singh');  
+insert into employee (id, name) values(0,'Maneesh Tewatia');  
+insert into employee (id, name) values(0,'Neha Saini'); 
+
+
